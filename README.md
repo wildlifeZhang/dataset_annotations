@@ -1,0 +1,5 @@
+Files named "published_NACTI_b_annotations.zip" and "published_d3_train_annotations.zip" contain bounding box annotations of training sets from datasets NACTI-b and D3-a introduced in the paper "Neural Architecture Search based on Packed Samples for Identifying Animals in Camera Trap Images" currently under review.
+
+The annotations are named the same as the images in original datasets NACTI and D3. The images of NACTI are available at "http://lila.science/datasets/nacti" and D3 is available at "https://computervisionlabudea.wordpress.com/identification-of-animal-species-on-camera-trap-images".
+
+The annotations are in the format of Labelimg available at “https://github.com/heartexlabs/labelImg”. Namely, if you download the annotations and images mentioned above, then you can view the annotations rendered on the image via Labelimg when the image and its annotations are placed in the same folder, i.e., you need to write a script to copy images based on the annotation names and open the annotation together with the image via Labelimg.
